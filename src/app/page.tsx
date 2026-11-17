@@ -15,6 +15,7 @@ const navigation = [
   { label: "Sectors", href: "#sectors" },
   { label: "Sources", href: "#sources" },
   { label: "Methodology", href: "#methodology" },
+  
 ];
 
 const researchSteps = [
@@ -103,6 +104,21 @@ export default function Home() {
         </nav>
       </header>
 
+      {/* FEATURED COMMERCIAL OUTREACH LINK — BELOW HEADER */}
+      <section aria-label="Commercial Outreach Research" className="border-b border-amber-200 bg-amber-50 px-6 py-4">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
+          <p className="text-center text-sm font-semibold text-slate-900 sm:text-left md:text-base">
+            Explore our independent India–Jordan business outreach research
+          </p>
+          <a
+            href="/commercial-outreach"
+            className="inline-flex w-full items-center justify-center rounded-xl bg-amber-500 px-6 py-3 text-center text-sm font-extrabold text-slate-950 shadow-md ring-2 ring-amber-600/20 transition hover:bg-amber-400 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-700 sm:w-auto md:text-base"
+          >
+            Click and check Commercial Outreach &amp; Chamber Research ↗
+          </a>
+        </div>
+      </section>
+
       {/* HERO */}
 
       <section
@@ -142,6 +158,7 @@ export default function Home() {
             >
               View Official Sources
             </a>
+
           </div>
         </div>
       </section>
@@ -179,6 +196,32 @@ export default function Home() {
               Research + Digital Strategy
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* COMMERCIAL OUTREACH RESEARCH PROJECT */}
+      <section className="border-b border-slate-200 bg-amber-50 px-6 py-14">
+        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-6 rounded-2xl border border-amber-200 bg-white p-8 shadow-sm md:flex-row md:items-center">
+          <div className="max-w-3xl">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-amber-700">
+              Featured Independent Research Project
+            </p>
+            <h2 className="mt-3 text-2xl font-bold text-slate-900 md:text-3xl">
+              India–Jordan Commercial Outreach & Chamber Research
+            </h2>
+            <p className="mt-3 leading-7 text-slate-600">
+              Explore Jordanian chamber and business association mapping,
+              proposed B2B outreach workflows, simulated commercial enquiry
+              cases and a healthcare trade-promotion concept. This is
+              independent research, not an official Embassy or Chamber project.
+            </p>
+          </div>
+          <a
+            href="/commercial-outreach"
+            className="inline-flex shrink-0 items-center justify-center rounded-lg bg-[#10233d] px-6 py-4 text-sm font-bold text-white transition hover:bg-slate-700"
+          >
+            View Research Portfolio ↗
+          </a>
         </div>
       </section>
 
